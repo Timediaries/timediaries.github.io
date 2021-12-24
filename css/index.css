@@ -1,0 +1,102 @@
+/* 首页样式 */
+
+/* 内容 */
+
+/* 内容左侧 */
+
+.lbox {
+    float: left;
+    width: 900px;
+    height: 100%;
+    /* background-color: pink; */
+}
+
+/* banner图 */
+.banner {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 260px;
+    /* background-color: pink; */
+}
+
+.banner .left {
+    float: left;
+    width: 616px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.banner .right{
+    float: right;
+    width: 270px;
+    height: 100%;
+    background-color: #fff;
+}
+
+/* 分类排行 */
+.ranking {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 309px;
+    background-color: pink;
+}
+
+/* 精彩专栏
+.wond {
+    width: 100%;
+} */
+
+/* 站内推荐广告 */
+.lbox .tui_banner {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 170px;
+    background-color: pink;
+}
+
+/* 最新发布 */
+.newest {
+    width: 100%;
+    height: 700px;
+    background-color: pink;
+}
+
+/* 内容右侧 */
+
+.rbox {
+    float: right;
+    width: 282px;
+    height: 100%;
+    /* background-color: pink; */
+}
+
+/* 现仅为布局所需 */
+.rbox .kong {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 260px;
+    background-color: pink;
+}
+
+/* 公告栏 */
+.rbox .notice {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 309px;
+    background-color: #fff;
+}
+
+/* 热门推荐 */
+.hot {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+/* 网站信息 */
+.web_xinxi {
+    width: 100%;
+    height: 350px;
+    background-color: #fff;
+}
