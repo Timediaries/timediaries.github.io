@@ -32,6 +32,11 @@ body {
   color: #333;
 }
 
+/* 设置p标签内容缩进 */
+p {
+  text-indent: 2em;
+}
+
 /* 去除列表默认样式 */
 ul,
 ol {

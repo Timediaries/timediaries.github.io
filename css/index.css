@@ -16,50 +16,150 @@
     margin-bottom: 20px;
     width: 100%;
     height: 260px;
-    /* background-color: pink; */
 }
 
+/* 轮播图片 */
 .banner .left {
     float: left;
     width: 616px;
     height: 100%;
-    background-color: #fff;
 }
 
+.banner .left img {
+    width: 616px;
+    height: 260px;
+}
+
+/* 轮播目录 */
 .banner .right{
     float: right;
     width: 270px;
     height: 100%;
+}
+
+.banner .right a {
+    margin-bottom: 5px;
+    display: block;
+    width: 270px;
+    height: 48px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 48px;
+}
+
+/* 精彩专栏 */
+.wond {
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 100%;
     background-color: #fff;
 }
 
-/* 分类排行 */
-.ranking {
+.wond .hd {
     margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
     width: 100%;
-    height: 309px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.wond .hd ul {
+    float: right;
+}
+
+.wond .hd li {
+    float: left;
+}
+
+.wond .hd a {
+    border-right: 2px solid #eaeaea;
+    padding: 0 10px;
+    font-size: 15px;
+}
+
+.wond .hd li:last-child a {
+    border-right: none;
+}
+
+.wond .bd ul {
+    float: left;
+}
+
+.wond .bd li {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    float: left;
+    width: 280px;
+    height: 287px;
     background-color: pink;
 }
 
-/* 精彩专栏
-.wond {
+.wond .bd li:nth-child(3n) {
+    margin-right: 0;
+}
+
+.wond .bd img {
+    width: 240px;
+}
+
+.wond .bd h3 {
+    margin: 10px 0;
+    padding-left: 8px;
     width: 100%;
-} */
+    height: 19px;
+    line-height: 19px;
+    font-size: 16px;
+}
+
+.wond .bd p {
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.wond .bd .particulars {
+    padding-left: 8px;
+    color: #063;
+}
+
+.wond .bd span {
+    margin-left: 8px;
+}
 
 /* 站内推荐广告 */
 .lbox .tui_banner {
     margin-bottom: 20px;
     width: 100%;
     height: 170px;
-    background-color: pink;
+    background-color: #fff;
 }
 
 /* 最新发布 */
 .newest {
+    padding: 20px;
     width: 100%;
     height: 700px;
-    background-color: pink;
+    background-color: #fff;
 }
+
+.newest .hd {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    height: 40px;
+    /* background-color: #eee; */
+    line-height: 40px;
+}
+
+.newest .bd li {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 197px;
+    /* background-color: #eee; */
+}
+
 
 /* 内容右侧 */
 
