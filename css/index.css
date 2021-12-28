@@ -92,7 +92,7 @@
     float: left;
     width: 280px;
     height: 287px;
-    background-color: pink;
+    box-shadow: 0 0 7px #eee;
 }
 
 .wond .bd li:nth-child(3n) {
